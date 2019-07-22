@@ -21,8 +21,5 @@ export class AppComponent implements OnInit {
     this.users = this.userService.getUsers()
   }
 
-  hello(){
-    return 'Navin'
-  }
 }
 
